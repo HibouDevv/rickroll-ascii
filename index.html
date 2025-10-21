@@ -1,0 +1,72 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="You just got something cool.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='76' height='76' viewBox='0 0 76 76'><rect width='76' height='76' rx='10' fill='white' fill-opacity='0.01'/></svg>">
+
+    <title>RICKROLLED</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(10, 10, 10);
+        }
+
+        pre {
+            color: rgb(244, 244, 244);
+            font-family: "Courier New", monospace;
+            white-space: pre-wrap;
+            line-height: 1.2;
+            font-size: 1vw;
+        }
+
+        @media only screen and (max-width: 1500px) {
+            pre {
+                font-size: 1.5vw;
+            }
+        }
+
+
+        @media only screen and (max-width: 1000px) {
+            pre {
+                font-size: 2vw;
+            }
+        }
+
+        a {
+            --fill: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 2rem;
+        }
+
+        a:hover {
+            --fill: #fff;
+        }
+    </style>
+
+    
+
+</head>
+
+<body>
+    <pre id="animation"></pre>
+    <a href="https://github.com/juxtopposed/ascii-rickroll-js" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+            height="24px" viewBox="0 -960 960 960" width="24px" fill="var(--fill)">
+            <path
+                d="M480-280q17 0 28.5-11.5T520-320v-160q0-17-11.5-28.5T480-520q-17 0-28.5 11.5T440-480v160q0 17 11.5 28.5T480-280Zm0-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z" />
+        </svg></a>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
